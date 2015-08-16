@@ -4,10 +4,7 @@ var config = {
   gitter: {
     // gitter token, can be retrieved from https://developer.gitter.im/apps
     token: 'YOUR_GITTER_TOKEN',
-  
-
-
-    room: {
+      room: {
       // name of the gitter room, you want to retrieve and sendthe messages
       name: 'ROOM_NAME'
     },
