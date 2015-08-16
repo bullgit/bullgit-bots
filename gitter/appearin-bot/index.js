@@ -20,12 +20,9 @@ function initBot() {
     
     // start the message listener
     listenToMessages();
-    
-    
   })
 }
 initBot();
-
 
 function listenToMessages () {
 
@@ -49,28 +46,17 @@ function listenToMessages () {
         
         // text contains the giphy command
         if (text.match(config.appear.regex)) {
-
           var feedcontent =  '🎥📞 : http://appear.in/' + makeid();
-
           send(feedcontent, room);
-
         }  if (text.match(config.appearbg.regex)) {
-
           var feedcontent =  '🎥📞 : http://appear.in/bullgit';
-
           send(feedcontent, room);
-
         } else {
-
             // ...
           }
-          
         }
-        
       });
-
   });
-
 }
 
 function send (message, room) {
@@ -89,20 +75,16 @@ function send (message, room) {
     console.log(message);
     break;
   }
-  
 }
 
 // Generate a custome room id 
 function makeid() {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
     for( var i=0; i < 12; i++ )
         text += possible.charAt(Math.floor(Math.random() * possible.length));
-
     return text;
 }
-
 
 // To keep it awake ( on services like heroku )
 setInterval(function() {
