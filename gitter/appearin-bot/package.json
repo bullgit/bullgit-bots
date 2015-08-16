@@ -1,5 +1,5 @@
 {
-  "name": "AppearinBot"
+  "name": "AppearinBot",
   "version": "1.0.0",
   "description": "An appear.  in bot that create both random or official appearin room.",
   "main": "index.js", 
