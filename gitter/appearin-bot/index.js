@@ -85,13 +85,3 @@ function makeid() {
         text += possible.charAt(Math.floor(Math.random() * possible.length));
     return text;
 }
-
-// To keep it awake ( on services like heroku )
-setInterval(function() {
-  try {
-    initBot()
-  }
-  catch (e) {
-    console.log(e);
-  }
-}, 60000* 60);
