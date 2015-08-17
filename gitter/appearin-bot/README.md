@@ -3,7 +3,7 @@ This bot fill a mission, it sends to the bullgit gitter channel, a link to a ran
 
 ## Install 
 
-_Note that the bot is already running on heroku for the `bullgit` channel_
+_Note that the bot is already running on our Uberspace server, for the `bullgit` channel_
 
 - `cd your/path/to/repo`
 - `git clone git@github.com:bullgit/bullgit-bots.git`
