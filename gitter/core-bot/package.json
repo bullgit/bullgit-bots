@@ -1,0 +1,15 @@
+{
+"name"            : "CoreBot1",
+"version"         : "1.0.0",
+"description"     : "An bot that call all the core gitches.",
+"main"            : "index.js", 
+"scripts"         : {
+    "start" : "node index.js"
+  },
+  "author": "LukyVj & dervondenbergen",
+  "license": "MIT",
+  "dependencies": {
+    "node-gitter": "^1.2.8",
+    "request": "^2.57.0"
+  }
+}
