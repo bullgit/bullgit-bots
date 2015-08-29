@@ -2,16 +2,16 @@ var config = {
   // gitter settings for retrieving and sending messages
   gitter: { 
     // gitter token, can be retrieved from https://developer.gitter.im/apps
-    token: '4d6a0c2f35cd4b465703a06419ace4367181e901',
+    token: 'YOUR_GITTER_TOKEN',
 
     room: {
       // name of the gitter room, you want to retrieve and sendthe messages
       // name: 'bullgit'
-      name: 'bullgit'
+      name: 'YOUR_GITTER_ROOM_NAME'
     },
     
     // custom webhook to send the gifs to the activity feed
-    webhook: 'https://webhooks.gitter.im/e/4f820443a563f50f7694',
+    webhook: 'YOUR_WEBOOK_URL',
     
     // place, where gif should be sent
     // possibilities: activity, chat
