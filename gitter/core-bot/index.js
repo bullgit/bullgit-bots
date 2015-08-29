@@ -38,7 +38,7 @@ function listenToMessages () {
         
         if (text.match(config.core.regex)) {
           
-          var feedcontent =  '@reimersjan @lucasbonomi1 @dervondenbergen @kevingimbel @timpietrusky @schoenwaldnils';
+          var feedcontent =  '@reimersjan @lukyvj @dervondenbergen @kevingimbel @timpietrusky @schoenwaldnils';
 
           send(feedcontent, room);
 
