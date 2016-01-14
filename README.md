@@ -5,3 +5,7 @@ This is where the bullgit bots feel home
 - [Wikipedia bot](https://github.com/bullgit/bullgit-bots/tree/master/gitter/wikibot)
 - [Bullgit wiki bot](https://github.com/bullgit/bullgit-bots/tree/master/gitter/bullwiki)
 - [Core gitches bot](https://github.com/bullgit/bullgit-bots/tree/master/gitter/core-bot)
+
+# See also
+
+- [Giphy bot](https://github.com/dervondenbergen/giphy-gitter) by @dervondenbergen
